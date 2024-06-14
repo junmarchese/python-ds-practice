@@ -25,4 +25,4 @@ def read_file_list(filename):
             line = line.strip()
             print(f"- {line}")
     
-print(read_file_list("dogs"))
+print(read_file_list("dogs.txt"))
